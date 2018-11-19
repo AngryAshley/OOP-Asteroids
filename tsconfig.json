@@ -1,18 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "removeComments": true,
-        "out": "build/app.js",
-        "noEmitOnError": true
+        "target": "es6",            //Selecteert de versie van ECMAScript
+        "sourceMap": true,          //Kiest of er een .map bestand aangemaakt wordt
+        "noImplicitAny": true,      //Kiest of je een "any" type mag definiëren
+        "noImplicitReturns": true,  //Kiest of je een "any" type mag returnen
+        "removeComments": true,     //Bepaalt of de comments bij het compileren verwijderd moeten worden
+        "out": "build/app.js",      //Bepaalt waar de gecompileerde javascript terechtkomt
+        "noEmitOnError": true       
     },
     "include": [
-        "src/**/*"
+        "src/**/*"                  //Bepaalt welke classes ge-include moeten worden, in dit geval alles in de src folder
     ],
     "exclude": [
-        "node_modules",
+        "node_modules",             //Bepaalt welke classes niet ge-include moeten worden
         "**/*.spec.ts"
     ]
 }
