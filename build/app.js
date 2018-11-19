@@ -275,7 +275,7 @@ class Game {
                 n = this.randomNumber(1, 2);
             }
             ;
-            sprite = `./assets/images/SpaceShooterRedux/PNG/Meteors/Meteor${c}_${s}${n}.png`;
+            sprite = `.\\assets\\images\\SpaceShooterRedux\\PNG\\Meteors\\Meteor${c}_${s}${n}.png`;
         }
         this.asteroidArray.push({
             x: this.randomNumber(0, this.w),
