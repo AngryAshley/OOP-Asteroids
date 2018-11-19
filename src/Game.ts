@@ -444,7 +444,7 @@ class Game {
                 case 3: s = "tiny"; break;
             }
             if(s=="big"){n=this.randomNumber(1,4)} else {n=this.randomNumber(1,2)};
-            sprite =`.\\assets\\images\\SpaceShooterRedux\\PNG\\Meteors\\Meteor${c}_${s}${n}.png`;
+            sprite =`.\\assets\\images\\SpaceShooterRedux\\PNG\\Meteors\\meteor${c}_${s}${n}.png`;
         }
         this.asteroidArray.push({
             x: this.randomNumber(0,this.w),
